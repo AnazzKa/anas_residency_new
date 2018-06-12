@@ -7,6 +7,6 @@ if(mysqli_connect_errno())
 {
 	echo "Failed to connect the database ". mysqli_connect_error();
 }
-
+mysqli_set_charset($con,"utf8");
 
 ?>

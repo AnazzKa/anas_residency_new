@@ -111,7 +111,7 @@ if($CV!=''){
             $newfilename='';
             foreach ($expld as $key)
             $newfilename.= $key;
-            $newfilename.='('.rand(0,99).').'.$ext;
+            $newfilename.='('.rand(0,9).').'.$ext;
             if(move_uploaded_file($_FILES["CV"]["tmp_name"], $target_dir.$newfilename))
             $sql.=",`cv`='$newfilename'";                
         } else {        
@@ -129,7 +129,7 @@ if($Medical!=''){
             $newfilename='';
             foreach ($expld as $key)
             $newfilename.= $key;
-            $newfilename.='('.rand(0,99).').'.$ext;
+            $newfilename.='('.rand(10,19).').'.$ext;
             if(move_uploaded_file($_FILES["Medical"]["tmp_name"], $target_dir.$newfilename))
             $sql.=",`medical`='$newfilename'";                
         } else { 
@@ -147,7 +147,7 @@ if($MedicaldegreeCertificate!=''){
             $newfilename='';
             foreach ($expld as $key)
             $newfilename.= $key;
-            $newfilename.='('.rand(0,99).').'.$ext;
+            $newfilename.='('.rand(20,29).').'.$ext;
             if(move_uploaded_file($_FILES["MedicaldegreeCertificate"]["tmp_name"], $target_dir.$newfilename))
             $sql.=",`medicaldegreeCertificate`='$newfilename'";                
         } else { 
@@ -165,7 +165,7 @@ if($OtherDegree!=''){
             $newfilename='';
             foreach ($expld as $key)
             $newfilename.= $key;
-            $newfilename.='('.rand(0,99).').'.$ext;
+            $newfilename.='('.rand(30,39).').'.$ext;
             if(move_uploaded_file($_FILES["OtherDegree"]["tmp_name"], $target_dir.$newfilename))
             $sql.=",`otherdegree`='$newfilename'";                
         } else { 
@@ -183,7 +183,7 @@ if($PersonalStatement!=''){
             $newfilename='';
             foreach ($expld as $key)
             $newfilename.= $key;
-            $newfilename.='('.rand(0,99).').'.$ext;
+            $newfilename.='('.rand(40,49).').'.$ext;
             if(move_uploaded_file($_FILES["PersonalStatement"]["tmp_name"], $target_dir.$newfilename))
             $sql.=",`personalstatement`='$newfilename'";                
         } else { 
@@ -201,7 +201,7 @@ if($PersonalPhoto!=''){
             $newfilename='';
             foreach ($expld as $key)
             $newfilename.= $key;
-            $newfilename.='('.rand(0,99).').'.$ext;
+            $newfilename.='('.rand(50,59).').'.$ext;
             if(move_uploaded_file($_FILES["PersonalPhoto"]["tmp_name"], $target_dir.$newfilename))
             $sql.=",`personalphoto`='$newfilename'";                
         } else { 
@@ -219,7 +219,7 @@ if($EnglishLangugaeTestScore!=''){
             $newfilename='';
             foreach ($expld as $key)
             $newfilename.= $key;
-            $newfilename.='('.rand(0,99).').'.$ext;
+            $newfilename.='('.rand(60,69).').'.$ext;
             if(move_uploaded_file($_FILES["EnglishLangugaeTestScore"]["tmp_name"], $target_dir.$newfilename))
             $sql.=",`englishLangugaetestscore`='$newfilename'";                
         } else {
@@ -237,7 +237,7 @@ if($PreentryexamResult!=''){
             $newfilename='';
             foreach ($expld as $key)
             $newfilename.= $key;
-            $newfilename.='('.rand(0,99).').'.$ext;
+            $newfilename.='('.rand(70,79).').'.$ext;
             if(move_uploaded_file($_FILES["PreentryexamResult"]["tmp_name"], $target_dir.$newfilename))
             $sql.=",`preentryexamresult`='$newfilename'";                
         } else {
@@ -255,7 +255,7 @@ if($EmiratesID!=''){
             $newfilename='';
             foreach ($expld as $key)
             $newfilename.= $key;
-            $newfilename.='('.rand(0,99).').'.$ext;
+            $newfilename.='('.rand(80,89).').'.$ext;
             if(move_uploaded_file($_FILES["EmiratesID"]["tmp_name"], $target_dir.$newfilename))
             $sql.=",`emiratesid`='$newfilename'";                
         } else {
@@ -273,7 +273,7 @@ if($PassportId!=''){
             $newfilename='';
             foreach ($expld as $key)
             $newfilename.= $key;
-            $newfilename.='('.rand(0,99).').'.$ext;
+            $newfilename.='('.rand(90,99).').'.$ext;
             if(move_uploaded_file($_FILES["PassportId"]["tmp_name"], $target_dir.$newfilename))
             $sql.=",`passportid`='$newfilename'";                
         } else {
@@ -291,7 +291,7 @@ if($DeansLetter!='') {
             $newfilename='';
             foreach ($expld as $key)
             $newfilename.= $key;
-            $newfilename.='('.rand(0,99).').'.$ext;
+            $newfilename.='('.rand(100,109).').'.$ext;
             if(move_uploaded_file($_FILES["DeansLetter"]["tmp_name"], $target_dir.$newfilename))
             $sql.=",`deansletter`='$newfilename'";                
         } else {
